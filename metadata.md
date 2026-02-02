@@ -4,7 +4,7 @@
 
 A research group member should type their name below.
 
-- **Researcher Name**: `Add Your Name Here`
+- **Researcher Name**: `Joseph Oforkansi`
 
 ## Reading Syllabus Pledge
 
@@ -12,7 +12,7 @@ A research group member should add an X-mark to the box to indicate that they
 have carefully read and understood the Junior Seminar Research Project Syllabus
 and that they are ready to complete their Junior Seminar Research Project.
 
-- [ ] I read the Junior Seminar Research Project Syllabus and am ready to begin
+- [X] I read the Junior Seminar Research Project Syllabus and am ready to begin
   the completion of my Junior Seminar Research Project.
 
 ## Honor Code Pledge
@@ -21,14 +21,14 @@ A research group member should add an X-mark to the box to indicate that they
 agree to adhere to the Allegheny College Honor Code during the completion of
 their Junior Seminar Research Project.
 
-- [ ] I agree to adhere to the Allegheny College Honor Code during the
+- [X] I agree to adhere to the Allegheny College Honor Code during the
   completion of my Junior Seminar Research Project.
 
 ## GitHub Username
 
 A research group member should type their GitHub username below.
 
-- **GitHub Username**: `Add Your GitHub Username Here`
+- **GitHub Username**: `josephoforkansi`
 
 ## GitHub Repositories
 
@@ -50,7 +50,7 @@ A research group member should type the title of their junior seminar research
 project into the following fenced code block.
 
 ```text
-Add the Title of Your Junior Seminar Research Project
+JCT: A Semantic Search Engine for Python Codebases Using Vector Representations of Behavioral Concepts
 ```
 
 ## Research Group Contributions
