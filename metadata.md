@@ -66,9 +66,8 @@ Document significant feedback you provided to other research group members
 during presentations, demonstrations, or informal discussions. Include:
 
 - **Researcher Name / Project**: [Logan Greer(CaddySense: Local AI-Powered Golf Performance Assistant)]
-- **Feedback Provided**: \[Brief description of the feedback, suggestions, or
-  questions you contributed\]
-- **Impact**: [If applicable, note how your feedback influenced their work]
+- **Feedback Provided**: \In the GitHub issue review of the Introduction chapter, I answered the required template questions (clarity, background, definitions, assumptions/limitations, ethics, sourcing) with Yes/No responses and detailed descriptions. Key suggestions included: reducing repetition across sections (minor), strengthening differentiation from existing tools by addressing recent AI features in apps like Arccos (AI Strategy for on-course advice), TrackMan's Tracy (AI swing insights), DeepSwing (on-device AI coach with drills), and Sportsbox AI (3D motion analysis) (moderate), and adding explicit discussion of assumptions, limitations, and scope boundaries such as reliance on user-entered data quality, Phi-3 model accuracy risks, synthetic data only so far, and no real-user evaluation yet (major). Emphasized tightening flow and boosting credibility through honest scoping.\]
+- **Impact**: [The feedback highlighted ways to make the "gap" argument more current and robust against 2025–2026 competitors (many now offer personalized AI feedback, some on-device). This could prompt Logan to refine competitor comparisons, deepen limitations coverage, and improve academic rigor potentially leading to a more balanced, defensible introduction in revisions.]
 - **Reference**: [https://github.com/Allegheny-Computer-Science-600610-25-26/senior-comprehensive-project-journal-and-chapters-greer01/issues/9]
 
 Example entries:
