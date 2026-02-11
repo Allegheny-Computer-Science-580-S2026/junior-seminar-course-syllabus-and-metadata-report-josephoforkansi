@@ -4,7 +4,7 @@
 
 A research group member should type their name below.
 
-- **Researcher Name**: `Add Your Name Here`
+- **Researcher Name**: `Joseph Oforkansi`
 
 ## Reading Syllabus Pledge
 
@@ -12,7 +12,7 @@ A research group member should add an X-mark to the box to indicate that they
 have carefully read and understood the Junior Seminar Research Project Syllabus
 and that they are ready to complete their Junior Seminar Research Project.
 
-- [ ] I read the Junior Seminar Research Project Syllabus and am ready to begin
+- [X] I read the Junior Seminar Research Project Syllabus and am ready to begin
   the completion of my Junior Seminar Research Project.
 
 ## Honor Code Pledge
@@ -21,28 +21,28 @@ A research group member should add an X-mark to the box to indicate that they
 agree to adhere to the Allegheny College Honor Code during the completion of
 their Junior Seminar Research Project.
 
-- [ ] I agree to adhere to the Allegheny College Honor Code during the
+- [X] I agree to adhere to the Allegheny College Honor Code during the
   completion of my Junior Seminar Research Project.
 
 ## GitHub Username
 
 A research group member should type their GitHub username below.
 
-- **GitHub Username**: `Add Your GitHub Username Here`
+- **GitHub Username**: `josephoforkansi`
 
 ## GitHub Repositories
 
 ### GitHub Repository for Research Report and Research Journal
 
-- **Repository URL**: [URL of GitHub Repository for Research Report and Journal](https://github.com/Allegheny-Computer-Science-580-S2026/)
+- **Repository URL**: [URL of GitHub Repository for Research Report and Journal](https://github.com/Allegheny-Computer-Science-580-S2026/junior-seminar-project-journal-and-research-report-chapters-josephoforkansi)
 
 ### GitHub Repository for Research Prototype
 
-- **Repository URL**: [URL of GitHub Repository for Research Prototype](https://github.com/Allegheny-Computer-Science-580-S2026/)
+- **Repository URL**: [URL of GitHub Repository for Research Prototype](https://github.com/josephoforkansi/jct-semantic-code-search)
 
 ### GitHub Repository for Research Data
 
-- **Repository URL**: [URL of GitHub Repository for Research Data](https://github.com/Allegheny-Computer-Science-580-S2026/)
+- **Repository URL**: [URL of GitHub Repository for Research Data](https://github.com/josephoforkansi/jct-research-data)
 
 ## Research Project Title
 
@@ -50,7 +50,7 @@ A research group member should type the title of their junior seminar research
 project into the following fenced code block.
 
 ```text
-Add the Title of Your Junior Seminar Research Project
+JCT: A Semantic Search Engine for Python Codebases Using Vector Representations of Behavioral Concepts
 ```
 
 ## Research Group Contributions
@@ -65,11 +65,10 @@ researchers.
 Document significant feedback you provided to other research group members
 during presentations, demonstrations, or informal discussions. Include:
 
-- **Researcher Name / Project**: [Name of peer researcher and their project]
-- **Feedback Provided**: \[Brief description of the feedback, suggestions, or
-  questions you contributed\]
-- **Impact**: [If applicable, note how your feedback influenced their work]
-- **Reference**: [Provide a link to a GitHub repository's issue tracker]
+- **Researcher Name / Project**: [Logan Greer(CaddySense: Local AI-Powered Golf Performance Assistant)]
+- **Feedback Provided**: [\In the GitHub issue review of the Introduction chapter, I answered the required template questions (clarity, background, definitions, assumptions/limitations, ethics, sourcing) with Yes/No responses and detailed descriptions. Key suggestions included: reducing repetition across sections (minor), strengthening differentiation from existing tools by addressing recent AI features in apps like Arccos (AI Strategy for on-course advice), TrackMan's Tracy (AI swing insights), DeepSwing (on-device AI coach with drills), and Sportsbox AI (3D motion analysis) (moderate), and adding explicit discussion of assumptions, limitations, and scope boundaries such as reliance on user-entered data quality, Phi-3 model accuracy risks, synthetic data only so far, and no real-user evaluation yet (major). Emphasized tightening flow and boosting credibility through honest scoping.\]
+- **Impact**: [The feedback highlighted ways to make the "gap" argument more current and robust against 2025–2026 competitors (many now offer personalized AI feedback, some on-device). This could prompt Logan to refine competitor comparisons, deepen limitations coverage, and improve academic rigor potentially leading to a more balanced, defensible introduction in revisions.]
+- **Reference**: [https://github.com/Allegheny-Computer-Science-600610-25-26/senior-comprehensive-project-journal-and-chapters-greer01/issues/9]
 
 Example entries:
 
