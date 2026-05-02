@@ -88,63 +88,57 @@ Example entries:
 
 ### Technical Discussions and Problem-Solving
 
-Document instances where you participated in collaborative technical
-discussions or helped fellow researchers troubleshoot issues:
+- **Discussion Topic / Problem**: Semantic search vs keyword search limitations  
+- **Your Contribution**: I explained how embedding-based similarity allows retrieval based on meaning rather than exact text matching, using examples from my JCT prototype. I demonstrated how cosine similarity enables ranking of code snippets based on intent.  
+- **Outcome**: This helped clarify for other researchers how modern search systems differ from traditional approaches like grep, influencing how they thought about retrieval problems in their own projects.
 
-- **Discussion Topic / Problem**: [Brief description]
-- **Your Contribution**: [What you shared, suggested, or helped debug]
-- **Outcome**: [How it helped advance the research]
+- **Discussion Topic / Problem**: GitHub Actions and testing integration using uv  
+- **Your Contribution**: I shared my setup for running tests using `uv run pytest` and discussed how dependency management with uv simplifies reproducibility across environments.  
+- **Outcome**: This helped multiple researchers better understand how to structure automated testing workflows and improve reliability of their repositories.
 
-Example entries:
-
-- **Docker Containerization Issues**: Shared my Dockerfile configuration and
-  helped three researchers set up their development environments
-- **Statistical Testing Discussion**: Explained paired t-tests vs. Wilcoxon
-  tests; helped multiple researchers choose appropriate tests for their
-  experiments
-- **GitHub Actions Debugging**: Collaborated with two researchers to fix CI/CD
-  pipeline failures; documented solution in group Slack channel
+- **Discussion Topic / Problem**: AST-based code analysis  
+- **Your Contribution**: I discussed how Abstract Syntax Trees can be used to extract structured representations of code, and demonstrated how my system uses `FunctionDef` nodes to create semantically meaningful chunks.  
+- **Outcome**: This contributed to a broader understanding within the group of how structural code analysis can be applied beyond simple text parsing.
 
 ### Research Group Meeting Participation
 
-Note particularly meaningful contributions during research group meetings:
+- **Meeting Date / Topic**: Week 6 – Prototype Design Discussion  
+- **Contribution**: I shared my approach to combining AST-based chunking with semantic embeddings and explained the reasoning behind separating indexing and query processing.  
+- **Value to Group**: This provided a concrete example of how to design a modular research prototype, helping others think more clearly about system architecture.
 
-- **Meeting Date / Topic**: [When and what]
-- **Contribution**: [Question asked, insight shared, or resource provided]
-- **Value to Group**: [How it benefited the research community]
+- **Meeting Date / Topic**: Week 9 – Evaluation and Metrics  
+- **Contribution**: I discussed the importance of using multiple evaluation metrics such as Precision@K, Success@1, and NDCG@K to capture both retrieval accuracy and ranking quality.  
+- **Value to Group**: This helped reinforce the importance of rigorous evaluation and influenced how other researchers approached their experimental design.
 
-Example entries:
-
-- **Week 4 / Research Ethics Discussion**: Raised important questions about
-  data privacy in web scraping projects; led to productive discussion about
-  `robots.txt` and ethical boundaries
-- **Week 9 / Writing Workshop**: Shared effective strategies for writing
-  related work sections; multiple researchers found it helpful because it
-  clarified the way they should structure the second chapter of their report
-- **Week 11 / Results Visualization**: Demonstrated `matplotlib` customization
-  techniques; several researchers adopted similar approaches
+- **Meeting Date / Topic**: Week 11 – Code Review and Repository Structure  
+- **Contribution**: I shared strategies for organizing repositories, including separating source code, evaluation data, and results into distinct directories.  
+- **Value to Group**: This improved overall repository clarity and helped others align with best practices expected in research projects.
 
 ### Research Resources Shared
 
-Document any research papers, tools, tutorials, or other resources you shared
-with the research group that helped advance collective knowledge:
+- **Resource**: Sentence-Transformers Documentation  
+- **Shared With**: Entire research group  
+- **Purpose**: Provided guidance on how embedding models work and how they can be used for semantic similarity tasks, directly relevant to multiple projects.
 
-- **Resource**: [Paper title, tool name, tutorial link, etc.]
-- **Shared With**: [Individual researcher or entire group]
-- **Purpose**: [Why you shared it and how it was relevant]
+- **Resource**: AST Visualization Tool (https://dhv.davep.dev/)  
+- **Shared With**: Entire research group  
+- **Purpose**: Demonstrated how code is parsed into Abstract Syntax Trees, helping others better understand structural code analysis.
 
-Example entries:
-
-- **"Testing in Production" Paper**: Shared with entire group during Week 7;
-  relevant for multiple systems research projects
-- **Plotly Visualization Tutorial**: Shared with four researchers working on
-  data-heavy projects; enabled interactive visualizations
-- **arXiv Paper on Neural Architecture Search**: Shared with Sarah Lee for her
-  AutoML project; became a key reference in her related work chapter
+- **Resource**: Cosine Similarity Explanation (vector similarity concepts)  
+- **Shared With**: Multiple researchers  
+- **Purpose**: Helped clarify how similarity scoring works in embedding-based systems, which supported understanding of ranking algorithms.
 
 ## Additional Project Information
 
-Please use this section to record any other relevant information about your
-Junior Seminar research project, your research process, or any other
-information that your research adviser or the research group coordinator deems
-important for you to document.
+Throughout the development of this project, I actively collaborated with
+Professor Luman outside of scheduled class time to refine both the
+technical implementation and the research presentation of JCT. These
+discussions focused on improving the structure of the repository,
+strengthening the methodology in Chapter 3, and ensuring that the system
+aligned with the expectations of a junior-level research prototype.
+
+This collaboration significantly improved the clarity, depth, and
+technical rigor of both the prototype and the written research report.
+It also helped guide decisions related to evaluation design, system
+architecture, and documentation, ultimately resulting in a more
+complete and academically sound project.
