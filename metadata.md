@@ -4,7 +4,7 @@
 
 A research group member should type their name below.
 
-- **Researcher Name**: `Add Your Name Here`
+- **Researcher Name**: `Joseph Oforkansi`
 
 ## Reading Syllabus Pledge
 
@@ -12,7 +12,7 @@ A research group member should add an X-mark to the box to indicate that they
 have carefully read and understood the Junior Seminar Research Project Syllabus
 and that they are ready to complete their Junior Seminar Research Project.
 
-- [ ] I read the Junior Seminar Research Project Syllabus and am ready to begin
+- [X] I read the Junior Seminar Research Project Syllabus and am ready to begin
   the completion of my Junior Seminar Research Project.
 
 ## Honor Code Pledge
@@ -21,28 +21,28 @@ A research group member should add an X-mark to the box to indicate that they
 agree to adhere to the Allegheny College Honor Code during the completion of
 their Junior Seminar Research Project.
 
-- [ ] I agree to adhere to the Allegheny College Honor Code during the
+- [X] I agree to adhere to the Allegheny College Honor Code during the
   completion of my Junior Seminar Research Project.
 
 ## GitHub Username
 
 A research group member should type their GitHub username below.
 
-- **GitHub Username**: `Add Your GitHub Username Here`
+- **GitHub Username**: `josephoforkansi`
 
 ## GitHub Repositories
 
 ### GitHub Repository for Research Report and Research Journal
 
-- **Repository URL**: [URL of GitHub Repository for Research Report and Journal](https://github.com/Allegheny-Computer-Science-580-S2026/)
+- **Repository URL**: [URL of GitHub Repository for Research Report and Journal](https://github.com/Allegheny-Computer-Science-580-S2026/junior-seminar-project-journal-and-research-report-chapters-josephoforkansi)
 
 ### GitHub Repository for Research Prototype
 
-- **Repository URL**: [URL of GitHub Repository for Research Prototype](https://github.com/Allegheny-Computer-Science-580-S2026/)
+- **Repository URL**: [URL of GitHub Repository for Research Prototype](https://github.com/josephoforkansi/jct-semantic-code-search)
 
 ### GitHub Repository for Research Data
 
-- **Repository URL**: [URL of GitHub Repository for Research Data](https://github.com/Allegheny-Computer-Science-580-S2026/)
+- **Repository URL**: [URL of GitHub Repository for Research Data](https://github.com/josephoforkansi/jct-research-data)
 
 ## Research Project Title
 
@@ -50,7 +50,7 @@ A research group member should type the title of their junior seminar research
 project into the following fenced code block.
 
 ```text
-Add the Title of Your Junior Seminar Research Project
+JCT: A Semantic Search Engine for Python Codebases Using Vector Representations of Behavioral Concepts
 ```
 
 ## Research Group Contributions
@@ -65,11 +65,15 @@ researchers.
 Document significant feedback you provided to other research group members
 during presentations, demonstrations, or informal discussions. Include:
 
-- **Researcher Name / Project**: [Name of peer researcher and their project]
-- **Feedback Provided**: \[Brief description of the feedback, suggestions, or
-  questions you contributed\]
-- **Impact**: [If applicable, note how your feedback influenced their work]
-- **Reference**: [Provide a link to a GitHub repository's issue tracker]
+- **Researcher Name / Project**: [Logan Greer(CaddySense: Local AI-Powered Golf Performance Assistant)]
+- **Feedback Provided**: [\In the GitHub issue review of the Introduction chapter, I answered the required template questions (clarity, background, definitions, assumptions/limitations, ethics, sourcing) with Yes/No responses and detailed descriptions. Key suggestions included: reducing repetition across sections (minor), strengthening differentiation from existing tools by addressing recent AI features in apps like Arccos (AI Strategy for on-course advice), TrackMan's Tracy (AI swing insights), DeepSwing (on-device AI coach with drills), and Sportsbox AI (3D motion analysis) (moderate), and adding explicit discussion of assumptions, limitations, and scope boundaries such as reliance on user-entered data quality, Phi-3 model accuracy risks, synthetic data only so far, and no real-user evaluation yet (major). Emphasized tightening flow and boosting credibility through honest scoping.\]
+- **Impact**: [The feedback highlighted ways to make the "gap" argument more current and robust against 2025–2026 competitors (many now offer personalized AI feedback, some on-device). This could prompt Logan to refine competitor comparisons, deepen limitations coverage, and improve academic rigor potentially leading to a more balanced, defensible introduction in revisions.]
+- **Reference**: [https://github.com/Allegheny-Computer-Science-600610-25-26/senior-comprehensive-project-journal-and-chapters-greer01/issues/9]
+
+- **Researcher Name / Project**: [Evan Nelson / WorkoutTracker: iOS Fitness Application with Progress Tracking and Personalized Feedback]
+- **Feedback Provided**: [\In the GitHub issue review of the Introduction chapter, I completed the required template questions (project clarity: Yes with summary; background: Yes with citation notes; definitions/terminology: Yes; assumptions/limitations: No, needing more explicit treatment; ethics: Yes with expansion suggestions; sourcing: Yes). Key recommendations included: reducing repetition and tightening flow across overlapping sections like personal motivation and app features (minor), better differentiating the project's "concise feedback" emphasis by acknowledging and contrasting recent AI-driven advancements in competing fitness apps such as Fitbod (AI-adapted strength plans), Zing Coach (AI-personalized programs with body scan integration), Freeletics (AI-generated coaching), and apps like Future/Caliber (data-driven customization) to bolster claims of uniqueness (moderate), and formally expanding discussion of assumptions, limitations, and scope e.g., dependence on accurate user-entered data, simplicity of rule-based (not ML/AI) feedback potentially limiting nuance, use of only synthetic/AI-generated data for testing so far, iOS-only platform, no wearable/sensor integration, and absence of real-user validation ideally in a dedicated subsection for stronger critical reflection and academic rigor (major). Overall, emphasized enhancing credibility through honest, upfront scoping and a more objective tone to align with CS senior thesis standards.\]
+- **Impact**: [The feedback aims to help strengthen the introduction’s academic quality, clarity, and critical self-reflection. Addressing the major revision (explicit limitations/assumptions section) and moderate revision (tone) would significantly improve the chapter’s scholarly tone and demonstrate stronger research awareness, key expectations for a senior comprehensive project. The minor edits would make the writing more concise and reader-friendly without major restructuring. Overall, implementing these suggestions should make the introduction more polished, defensible, and aligned with computer science thesis standards.]
+- **Reference**: [https://github.com/Allegheny-Computer-Science-600610-25-26/senior-comprehensive-project-journal-and-chapters-EvanNelson04/issues/10]
 
 Example entries:
 
@@ -84,63 +88,57 @@ Example entries:
 
 ### Technical Discussions and Problem-Solving
 
-Document instances where you participated in collaborative technical
-discussions or helped fellow researchers troubleshoot issues:
+- **Discussion Topic / Problem**: Semantic search vs keyword search limitations  
+- **Your Contribution**: I explained how embedding-based similarity allows retrieval based on meaning rather than exact text matching, using examples from my JCT prototype. I demonstrated how cosine similarity enables ranking of code snippets based on intent.  
+- **Outcome**: This helped clarify for other researchers how modern search systems differ from traditional approaches like grep, influencing how they thought about retrieval problems in their own projects.
 
-- **Discussion Topic / Problem**: [Brief description]
-- **Your Contribution**: [What you shared, suggested, or helped debug]
-- **Outcome**: [How it helped advance the research]
+- **Discussion Topic / Problem**: GitHub Actions and testing integration using uv  
+- **Your Contribution**: I shared my setup for running tests using `uv run pytest` and discussed how dependency management with uv simplifies reproducibility across environments.  
+- **Outcome**: This helped multiple researchers better understand how to structure automated testing workflows and improve reliability of their repositories.
 
-Example entries:
-
-- **Docker Containerization Issues**: Shared my Dockerfile configuration and
-  helped three researchers set up their development environments
-- **Statistical Testing Discussion**: Explained paired t-tests vs. Wilcoxon
-  tests; helped multiple researchers choose appropriate tests for their
-  experiments
-- **GitHub Actions Debugging**: Collaborated with two researchers to fix CI/CD
-  pipeline failures; documented solution in group Slack channel
+- **Discussion Topic / Problem**: AST-based code analysis  
+- **Your Contribution**: I discussed how Abstract Syntax Trees can be used to extract structured representations of code, and demonstrated how my system uses `FunctionDef` nodes to create semantically meaningful chunks.  
+- **Outcome**: This contributed to a broader understanding within the group of how structural code analysis can be applied beyond simple text parsing.
 
 ### Research Group Meeting Participation
 
-Note particularly meaningful contributions during research group meetings:
+- **Meeting Date / Topic**: Week 6 – Prototype Design Discussion  
+- **Contribution**: I shared my approach to combining AST-based chunking with semantic embeddings and explained the reasoning behind separating indexing and query processing.  
+- **Value to Group**: This provided a concrete example of how to design a modular research prototype, helping others think more clearly about system architecture.
 
-- **Meeting Date / Topic**: [When and what]
-- **Contribution**: [Question asked, insight shared, or resource provided]
-- **Value to Group**: [How it benefited the research community]
+- **Meeting Date / Topic**: Week 9 – Evaluation and Metrics  
+- **Contribution**: I discussed the importance of using multiple evaluation metrics such as Precision@K, Success@1, and NDCG@K to capture both retrieval accuracy and ranking quality.  
+- **Value to Group**: This helped reinforce the importance of rigorous evaluation and influenced how other researchers approached their experimental design.
 
-Example entries:
-
-- **Week 4 / Research Ethics Discussion**: Raised important questions about
-  data privacy in web scraping projects; led to productive discussion about
-  `robots.txt` and ethical boundaries
-- **Week 9 / Writing Workshop**: Shared effective strategies for writing
-  related work sections; multiple researchers found it helpful because it
-  clarified the way they should structure the second chapter of their report
-- **Week 11 / Results Visualization**: Demonstrated `matplotlib` customization
-  techniques; several researchers adopted similar approaches
+- **Meeting Date / Topic**: Week 11 – Code Review and Repository Structure  
+- **Contribution**: I shared strategies for organizing repositories, including separating source code, evaluation data, and results into distinct directories.  
+- **Value to Group**: This improved overall repository clarity and helped others align with best practices expected in research projects.
 
 ### Research Resources Shared
 
-Document any research papers, tools, tutorials, or other resources you shared
-with the research group that helped advance collective knowledge:
+- **Resource**: Sentence-Transformers Documentation  
+- **Shared With**: Entire research group  
+- **Purpose**: Provided guidance on how embedding models work and how they can be used for semantic similarity tasks, directly relevant to multiple projects.
 
-- **Resource**: [Paper title, tool name, tutorial link, etc.]
-- **Shared With**: [Individual researcher or entire group]
-- **Purpose**: [Why you shared it and how it was relevant]
+- **Resource**: AST Visualization Tool (https://dhv.davep.dev/)  
+- **Shared With**: Entire research group  
+- **Purpose**: Demonstrated how code is parsed into Abstract Syntax Trees, helping others better understand structural code analysis.
 
-Example entries:
-
-- **"Testing in Production" Paper**: Shared with entire group during Week 7;
-  relevant for multiple systems research projects
-- **Plotly Visualization Tutorial**: Shared with four researchers working on
-  data-heavy projects; enabled interactive visualizations
-- **arXiv Paper on Neural Architecture Search**: Shared with Sarah Lee for her
-  AutoML project; became a key reference in her related work chapter
+- **Resource**: Cosine Similarity Explanation (vector similarity concepts)  
+- **Shared With**: Multiple researchers  
+- **Purpose**: Helped clarify how similarity scoring works in embedding-based systems, which supported understanding of ranking algorithms.
 
 ## Additional Project Information
 
-Please use this section to record any other relevant information about your
-Junior Seminar research project, your research process, or any other
-information that your research adviser or the research group coordinator deems
-important for you to document.
+Throughout the development of this project, I actively collaborated with
+Professor Luman outside of scheduled class time to refine both the
+technical implementation and the research presentation of JCT. These
+discussions focused on improving the structure of the repository,
+strengthening the methodology in Chapter 3, and ensuring that the system
+aligned with the expectations of a junior-level research prototype.
+
+This collaboration significantly improved the clarity, depth, and
+technical rigor of both the prototype and the written research report.
+It also helped guide decisions related to evaluation design, system
+architecture, and documentation, ultimately resulting in a more
+complete and academically sound project.
